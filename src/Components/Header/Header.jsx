@@ -36,7 +36,7 @@ const Header = () => {
     const [menu, setMenu] = useState(false);
 
     return (
-        <nav className="mx-auto px-4 md:px-12 font-mono shadow-md py-2 fixed top-0 left-0 right-0">
+        <nav className="mx-auto px-4 md:px-12 font-mono shadow-md py-2 fixed top-0 left-0 right-0 bg-white">
             <div className="flex justify-between items-center">
                 <div className="flex gap-4 items-center">
                     <div>

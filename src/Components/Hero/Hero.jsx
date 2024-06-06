@@ -12,10 +12,10 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
     return (
-        <div className="px-4 md:px-12 mx-auto my-20">
+        <div className="px-4 md:px-12 mx-auto mt-20">
             <div className="flex flex-col-reverse md:flex-row gap-6">
                 {/* left side */}
-                <div className="md:w-1/2 mt-12 md:mt-24 space-y-6  md:space-y-12">
+                <div className="md:w-1/2  md:mt-24 space-y-6  md:space-y-12">
                     <div className=" space-y-2">
                     <p className="text-lg font-semibold font-serif">Welcome to my Feed</p>
                     <div className="flex space-x-1 text-2xl md:text-4xl">
@@ -54,7 +54,7 @@ const Hero = () => {
 
                 </div>
                 {/* right side */}
-                <div className="md:w-1/2 flex justify-center items-center mt-4 md:mt-24">
+                <div className="md:w-1/2 flex justify-center items-center my-4 md:my-24">
                     <img src={image} alt=""  className=" rounded-full w-[300px] h-[300px] md:h-[450px] md:w-[450px]"/>
                 </div>
             </div>
