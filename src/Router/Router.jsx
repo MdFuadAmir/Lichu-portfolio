@@ -3,8 +3,8 @@ import Root from "../Root/Root";
 import Contact from "../Pages/Contact/Contact";
 import Home from "../Components/Home/Home";
 import About from "../Pages/About/About";
-import Portfolio from "../Pages/Portfolio/Portfolio";
 import Experiance from "../Pages/Experiance/Experiance";
+import Projects from "../Pages/Projects/Projects";
 
 
 const router = createBrowserRouter([
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
                 element: <About/>
             },
             {
-                path: '/portfolio',
-                element: <Portfolio/>
+                path: '/projects',
+                element: <Projects/>
             },
             {
                 path: '/experience',

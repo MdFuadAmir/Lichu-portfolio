@@ -2,7 +2,7 @@ import image from "../../assets/you.jpg";
 
 const About = () => {
     return (
-        <div className="mt-24 mx-auto px-4 text-balance space-y-6 md:space-y-10">
+        <div className="mt-24 px-4 space-y-6 md:space-y-10">
             {/* about header */}
             <div className=" text-center space-y-2">
                 <h1 className="text-4xl font-mono font-bold">About Us</h1>

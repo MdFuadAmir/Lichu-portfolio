@@ -17,8 +17,8 @@ const links =[
     },
     {
         id: 3,
-        name: "Portfolio",
-        path: "/portfolio"
+        name: "Projects",
+        path: "/projects"
     },
     {
         id: 4,

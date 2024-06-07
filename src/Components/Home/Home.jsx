@@ -1,4 +1,5 @@
 import About from "../../Pages/About/About";
+import Projects from "../../Pages/Projects/Projects";
 import Hero from "../Hero/Hero";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Hero/>
             <About/>
+            <Projects/>
         </div>
     );
 };
