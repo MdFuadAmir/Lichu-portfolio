@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import logo from "../../assets/fuad.jpg"
+import logo from "../../assets/you.webp"
 import { MdOutlineMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";

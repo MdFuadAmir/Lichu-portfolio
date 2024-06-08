@@ -1,4 +1,4 @@
-import image from "../../assets/fuad.jpg"
+import image from "../../assets/you.webp"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -19,7 +19,7 @@ const Hero = () => {
                     <div className=" space-y-2">
                     <p className="text-lg font-semibold font-serif">Welcome to my Feed</p>
                     <div className="flex space-x-1 text-2xl md:text-4xl">
-                    <h1 className="font-bold">Hello,I m a</h1>
+                    <h1 className="font-bold">Hello,I'm a</h1>
                     <ReactTyped
                         className="text-red-600 font-bold"
                         strings={["Developer", "Programmer", "coder"]}
@@ -55,7 +55,7 @@ const Hero = () => {
                 </div>
                 {/* right side */}
                 <div className="md:w-1/2 flex justify-center items-center my-4 md:my-24">
-                    <img src={image} alt=""  className=" rounded-full w-[300px] h-[300px] md:h-[450px] md:w-[450px]"/>
+                    <img src={image} alt=""  className=" w-[300px] h-[300px] md:h-[450px] md:w-[450px]"/>
                 </div>
             </div>
         </div>
