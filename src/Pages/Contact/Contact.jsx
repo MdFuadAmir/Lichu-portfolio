@@ -28,7 +28,6 @@ const Contact = () => {
                 <button type="submit" className="bg-black text-white rounded-xl px-6 py-2 hover:bg-slate-700 duration-300">Send</button>
                 </div>
                 </form>
-
             </div>
             </div>
         </div>

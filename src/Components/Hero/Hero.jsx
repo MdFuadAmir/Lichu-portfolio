@@ -1,4 +1,4 @@
-import image from "../../assets/you.webp"
+import image from "../../assets/3d96eba59a324ac1570e174fd5bb5e94-removebg-preview.png"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -30,7 +30,6 @@ const Hero = () => {
                     </div>
                     </div>
                     <p className="text-justify text-sm md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nisi temporibus aut quasi asperiores repudiandae tempore. Nulla perferendis architecto vitae, voluptates magni aliquid, aperiam quas assumenda laborum fuga  aut quasi asperiores repudiandae tempore. Nulla perferendis architecto vitae, cumque. Et.</p>
-
                     <div className="flex flex-col lg:flex-row items-center justify-around md:space-y-0 space-y-6">
                         <div className="space-y-2 text-center">
                             <h3 className="text-xl font-bold font-serif">Available on</h3>

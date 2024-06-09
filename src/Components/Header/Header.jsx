@@ -1,9 +1,9 @@
-
 import { Link } from "react-router-dom";
-import logo from "../../assets/you.webp"
+import logo from "../../assets/3d96eba59a324ac1570e174fd5bb5e94-removebg-preview.png"
 import { MdOutlineMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
+
 const links =[
     {
         id: 1,
@@ -72,6 +72,7 @@ const Header = () => {
                 </div>
                     )
                 }
+                
         </nav>
     );
 };

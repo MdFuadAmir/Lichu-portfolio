@@ -1,4 +1,5 @@
-import image from "../../assets/you.jpg";
+
+import img from "../../assets/you-removebg-preview.png"
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center gap-6">
                 {/* right side about */}
                 <div className="md:w-1/2 items-center flex justify-center">
-                    <img src={image} alt="" className="h-[350px] w-[350px]"/>
+                    <img src={img} alt="" className="h-[350px] w-[350px]"/>
                 </div>
                 {/* left side about */}
                 <div className="md:w-1/2 space-y-3">
